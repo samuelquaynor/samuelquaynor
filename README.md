@@ -5,8 +5,8 @@ I'm a full stack web developer (Django, Reactjs, Vuejs, Nestjs), I have almost 2
 **********************************
 What stack I'm working with?
 **********************************
--App Development:
-•Flutter
+- App Development:
+• Flutter
 
 - Backend development:
 • Django/ Nest/ NuxtJS
