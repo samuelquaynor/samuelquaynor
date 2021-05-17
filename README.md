@@ -9,13 +9,16 @@ What stack I'm working with?
 • Flutter
 
 - Backend development:
-• Django/ Nest/ NuxtJS
+• Django/ NestJS
 
 - Frontend development:
 • VueJS
 • ReactJS
 • Vanilla Javascript/ES6/jQuery
 • NuxtJS
+
+- Language API:
+• GRAPH QL
 
 - Databases:
 • PostgresSql
