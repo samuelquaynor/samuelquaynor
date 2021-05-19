@@ -18,7 +18,7 @@ What stack I'm working with?
 • NuxtJS
 
 - Language API:
-• GRAPH QL
+• GRAPHQL
 
 - Databases:
 • PostgresSql
