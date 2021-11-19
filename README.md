@@ -8,6 +8,10 @@ What stack I'm working with?
 - App Development:
 • Flutter
 
+- UI/UX Development:
+• Adobe XD
+• Figma
+
 - Backend development:
 • Django/ Nodejs(NestJS)
 
