@@ -12,6 +12,11 @@ What stack I'm working with?
 • Adobe XD
 • Figma
 
+- Hosting:
+• AWS
+• Digital Ocean
+• Firebase
+
 - Backend development:
 • Django/ Nodejs(NestJS)
 
