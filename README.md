@@ -1,10 +1,11 @@
-# An Actual READ ME
+# An Actual READ ME...
 
 > *"The best way to predict the future is to invent it."* - Alan Kay
 
 ---
 
-## 💭 Why This README Exists
+<details>
+<summary><b>💭 Inspiration</b></summary>
 
 I put myself in the shoes of whoever I want to catch the attention of - hiring managers, collaborators, mentors, investors. I asked myself: *"What questions would I actually be looking to have answered about this person?"*
 
@@ -20,10 +21,30 @@ As engineers, we're engrossed in solving real-world problems. Building and maint
 
 **One-stop solution:** Everything is in one place. No switching between tabs, no navigating through multiple pages, no waiting for different sections to load. Your entire portfolio, code samples, and story are accessible in a single scroll. Sometimes the simplest solution is the best solution.
 
+</details>
+
 ---
 
 ## 👋 Who am I
 I'm a passionate engineer who loves solving complex problems and building innovative solutions. My engineering journey has been driven by curiosity, systematic thinking, and a desire to create meaningful impact through technology.
+
+I've had the privilege of working across the full spectrum of engineering environments - from corporate structures to startup agility, from team collaboration to solo entrepreneurship. This diversity has given me a unique perspective on how different approaches can solve the same problems.
+
+**Environments I've Thrived In:**
+- **Corporate Engineering** - Large-scale systems, structured processes, cross-functional collaboration
+- **Startup Engineering** - Rapid iteration, resource constraints, high-impact decisions
+- **Solo Entrepreneurship** - End-to-end ownership, strategic thinking, market validation
+
+My experience spans the entire software development lifecycle, allowing me to understand problems from multiple perspectives and build more effective solutions.
+
+**Roles I've Mastered:**
+- **Backend Engineering** - APIs, databases, system architecture
+- **Frontend Engineering** - User experience, interface design, client-side optimization
+- **Full-Stack Engineering** - End-to-end development, system integration
+- **Mobile Engineering** - Cross-platform app development
+- **Software Engineering** - System design, architecture, and scalable solutions
+- **Automation Engineering** - Process optimization, efficiency improvements
+- **Data Analysis & Reporting** - Insights generation, decision support systems
 
 <!-- 
 ## 🚀 Current Solutions I'm Working On
