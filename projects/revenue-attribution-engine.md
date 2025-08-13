@@ -1,60 +1,58 @@
 # Revenue Attribution Engine: Collection Platform Automation
 
-## 🎯 Overview
-Built an intelligent automation system that solved a critical revenue attribution problem within our collection platform. The solution transformed manual, error-prone tax data processing into an automated system that correctly revenue to the right business units.
-
-## 🏢 Environment Context
-- **Environment Type:** Corporate Engineering
-- **Team Size:** Solo project with cross-functional stakeholders
-- **Timeline:** 3 months from problem identification to production deployment
-- **My Role:** Full-Stack Engineer (Backend, Data Engineering, System Architecture)
+## Background
+Our collection platform (X-Collect) started for a single business unit to handle tax payments. As more units began using it, we needed a reliable way to see which revenue belonged to which business unit. That work was being done manually, was slow, and often wrong.
 
 ## The Problem
-- The platform stored payer names, not the legal business entity.
+- Inconsistent identifiers
+  - The platform stored payer names, not the legal business entity
   - Example: “John Smith (Google employee)” instead of “Google Inc.”
-- Interns manually:
-  - Downloaded PDFs from the tax authority site
-  - Extracted the real business entity
-  - Matched it to an internal client ID in spreadsheets
-- This led to name mismatches, revenue disputes between units, and delayed monthly/quarterly reporting.
+- Manual cross‑referencing
+  - Interns downloaded PDFs from the tax authority site
+  - Extracted the real business entity from each PDF
+  - Matched that to an internal client ID in spreadsheets
+- Data integrity issues
+  - Name mismatches created incorrect mappings
+  - Led to inter‑unit revenue disputes and delayed monthly/quarterly reporting
 
-## Approach (Engineer’s view)
-Design a simple, durable pipeline that turns raw transactions into verified attributions:
-- Pull new transactions from MSSQL on a schedule
-- Fetch the related PDFs from the authority site
-- Parse the PDFs to isolate the business entity name
-- Resolve that name to an internal client ID
-- Store confirmed matches so future runs are instant
-- Push validated attributions to reporting
+## The Solution
+I designed an automated attribution pipeline inside X‑Collect that turns raw transactions into verified, report‑ready revenue ownership.
 
-## Architecture at a Glance
-- Python workers for ingestion, PDF retrieval, parsing, and attribution
-- MSSQL for transactions plus a small reference store of confirmed matches
-- Power BI dashboards fed by validated attribution tables
+At a glance, the pipeline:
+- Pulls new transactions from MSSQL on a schedule
+- Fetches related PDFs from the authority site automatically
+- Extracts the business entity name from each PDF (robust text extraction)
+- Resolves that entity to an internal client ID using rules and similarity scoring
+- Stores confirmed matches so future runs are instant and consistent
+- Writes validated attributions into reporting tables that feed dashboards
 
-## Key Engineering Decisions
-- Persistent match reference: Save confirmed pairs to avoid re‑solving the same names; lookups drop from minutes to milliseconds over time.
-- Confidence thresholds with human-in-the-loop: Automate the obvious; surface the ambiguous.
-- Batch processing and caching: Efficient daily throughput across thousands of records.
+Why these choices worked:
+- Persistent match reference avoids re‑solving the same entities and compounds speed/accuracy over time
+- Confidence thresholds automate high‑certainty cases and surface ambiguous ones for review when needed
+- Batch processing and caching keep throughput high across thousands of records per day
 
-## Results
-- Recovered and secured ~32M GHS to the correct business unit
-- Accuracy above 99% across thousands of daily transactions
-- Reporting cycle reduced from days to minutes for this flow
-- Eliminated inter‑unit disputes caused by name mismatches
+## Results & Impact
+- Secured and credited 32M+ GHS to the rightful business unit
+- 99%+ attribution accuracy across thousands of daily transactions
+- Reporting cycle shortened from days to minutes for this flow
+- Eliminated inter‑unit friction caused by incorrect name mappings
 
-## What I Owned
-- Problem framing with finance/ops
-- System design and implementation (Python, MSSQL)
-- PDF parsing and name resolution
-- Data models feeding Power BI
-- Rollout and iteration based on stakeholder feedback
+## Technology
+- Python — ingestion, PDF retrieval and parsing, entity resolution
+- MSSQL — transactions plus a small, durable reference store of confirmed matches
+- Power BI — live dashboards backed by validated attribution tables
 
-## Lessons Learned
+## Where this happened
+- Platform: X‑Collect (collection platform)
+- Environment: Corporate engineering
+- Role: Full‑stack ownership (backend, data engineering, system design)
+- Timeline: ~3 months from problem to production
+
+## What I learned
 - Technical clarity creates business outcomes when tied to revenue ownership
-- Small, persistent reference data can compound accuracy and speed
-- In high‑stakes data flows, ownership accuracy matters as much as processing speed
+- Small, persistent reference data creates compounding value over time
+- In high‑stakes data flows, ownership accuracy matters as much as speed
 
 ---
 
-[Back to Portfolio](../README.md)
+*[Back to Portfolio](../README.md)*
