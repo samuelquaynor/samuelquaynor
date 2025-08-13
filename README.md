@@ -37,7 +37,7 @@ I've had the privilege of working across the full spectrum of engineering enviro
 
 My experience spans the entire software development lifecycle, allowing me to understand problems from multiple perspectives and build more effective solutions.
 
-**Roles I've Mastered:**
+**Roles I've Worked In:**
 - **Backend Engineering** - APIs, databases, system architecture
 - **Frontend Engineering** - User experience, interface design, client-side optimization
 - **Full-Stack Engineering** - End-to-end development, system integration
@@ -89,10 +89,10 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 ## ✨ Featured Projects
 
-### [Project Name]
-*[Brief description of what this project solves and the impact it creates]*
+### Revenue Attribution Engine
+*Automated revenue attribution within our collection platform—recovering and securing 32M+ GHS for the business unit and delivering 99%+ accuracy at scale across thousands of daily transactions.*
 
-**[📖 Read Full Project Details](projects/project-name.md)**
+**[📖 Read Full Project Details](projects/revenue-attribution-engine.md)**
 
 ---
 
