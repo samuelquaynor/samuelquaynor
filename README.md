@@ -96,6 +96,13 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 ---
 
+### Data Team Structure
+*Designed and implemented a lean, high‑impact data team operating model that aligned stakeholders, clarified ownership, accelerated delivery, and improved data quality across analytics and reporting.*
+
+**[📖 Read Full Project Details](projects/data-team-structure.md)**
+
+---
+
 ### [Project Name]
 *[Brief description of what this project solves and the impact it creates]*
 

@@ -50,7 +50,7 @@
 
 ## 🔗 Links
 - **Live Demo:** [Link]
-- **GitHub Repository:** [Link]
+- **Azure DevOps Repository:** [Link]
 - **Documentation:** [Link if available]
 
 ## 🎯 Future Improvements
