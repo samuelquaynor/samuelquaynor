@@ -44,7 +44,7 @@ My experience spans the entire software development lifecycle, allowing me to un
 - **Mobile Engineering** - Cross-platform app development
 - **Software Engineering** - System design, architecture, and scalable solutions
 - **Automation Engineering** - Process optimization, efficiency improvements
-- **Data Analysis & Reporting** - Insights generation, decision support systems
+- **Data Engineering** - Modern data pipelines, analytics, and reporting systems
 
 <!-- 
 ## 🚀 Current Solutions I'm Working On
