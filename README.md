@@ -2,7 +2,7 @@
 
 > *"The best way to predict the future is to invent it."* - Alan Kay
 
----
+<!-- ---
 
 <details>
 <summary><b>💭 Inspiration</b></summary>
@@ -23,7 +23,7 @@ As engineers, we're engrossed in solving real-world problems. Building and maint
 
 </details>
 
----
+--- -->
 
 ## 👋 Who am I
 I'm a passionate engineer who loves solving complex problems and building innovative solutions. My engineering journey has been driven by curiosity, systematic thinking, and a desire to create meaningful impact through technology.
@@ -94,7 +94,7 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 **[📖 Read Full Project Details](projects/revenue-attribution-engine.md)**
 
----
+<!-- ---
 
 ### Data Team Structure
 *Designed and implemented a lean, high‑impact data team operating model that aligned stakeholders, clarified ownership, accelerated delivery, and improved data quality across analytics and reporting.*
@@ -108,7 +108,7 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 **[📖 Read Full Project Details](projects/project-name.md)**
 
----
+--- -->
 
 <!-- 
 ## 🛠️ Technologies & Skills
