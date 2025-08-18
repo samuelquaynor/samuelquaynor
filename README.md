@@ -1,6 +1,6 @@
 # An Actual READ ME...
 
-> *"The best way to predict the future is to invent it."* - Alan Kay
+<!-- > *"The best way to predict the future is to invent it."* - Alan Kay -->
 
 <!-- ---
 
@@ -134,5 +134,5 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 ---
 
-*"The best way to predict the future is to invent it." - Alan Kay*
+<!-- *"The best way to predict the future is to invent it." - Alan Kay* -->
 
