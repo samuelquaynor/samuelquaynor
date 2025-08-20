@@ -94,14 +94,19 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 
 **[📖 Read Full Project Details](projects/revenue-attribution-engine.md)**
 
-<!-- ---
+<!-- ### Data Team Structure
+*Transformed a chaotic data environment into a predictable, high-quality operation by implementing modern engineering practices and a clear Agile/Scrum framework. Improved data reliability, accelerated delivery, and fostered a culture of collaboration and continuous learning.*
 
-### Data Team Structure
-*Designed and implemented a lean, high‑impact data team operating model that aligned stakeholders, clarified ownership, accelerated delivery, and improved data quality across analytics and reporting.*
-
-**[📖 Read Full Project Details](projects/data-team-structure.md)**
+**[📖 Read Full Project Details](projects/data-team-structure.md)** -->
 
 ---
+
+### Boostmate App
+*Transformed a struggling digital marketing platform from a buggy, unresponsive application into a robust, enterprise-grade solution. Led the complete technical overhaul using Flutter, Domain-Driven Design, and comprehensive testing strategies. The platform now reliably supports lead generation, social media management, and digital marketing campaigns with 80% performance improvement and seamless cross-platform deployment.*
+
+**[📖 Read Full Project Details](projects/boostmate-app.md)**
+
+<!-- ---
 
 ### [Project Name]
 *[Brief description of what this project solves and the impact it creates]*
