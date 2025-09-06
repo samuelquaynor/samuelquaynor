@@ -2,7 +2,7 @@
 
 <!-- > *"The best way to predict the future is to invent it."* - Alan Kay -->
 
-<!-- ---
+---
 
 <details>
 <summary><b>💭 Inspiration</b></summary>
@@ -23,7 +23,7 @@ As engineers, we're engrossed in solving real-world problems. Building and maint
 
 </details>
 
---- -->
+---
 
 ## 👋 Who am I
 I'm a passionate engineer who loves solving complex problems and building innovative solutions. My engineering journey has been driven by curiosity, systematic thinking, and a desire to create meaningful impact through technology.
@@ -45,47 +45,17 @@ My experience spans the entire software development lifecycle, allowing me to un
 - **Software Engineering** - System design, architecture, and scalable solutions
 - **Automation Engineering** - Process optimization, efficiency improvements
 - **Data Engineering** - Modern data pipelines, analytics, and reporting systems
+- **DevOps Engineering** - CI/CD pipelines, infrastructure as code, cloud deployment, and operational excellence
 
-<!-- 
+
 ## 🚀 Current Solutions I'm Working On
 I'm currently working on multiple projects that challenge me in different ways and help me grow as an engineer.
 
-### Project A: [Project Name]
-*[Brief description of the problem you're solving and your approach]*
+### Data Team Workflow Transformation
+*Engineering a complete overhaul of our data team's operational model to transform chaotic, ad-hoc processes into a predictable, high-quality operation. Implementing modern engineering practices, Agile/Scrum methodology, and Microsoft-first tooling to create scalable workflows for MIS requests, Power BI development, and automation projects. This includes establishing proper version control, testing frameworks, and CI/CD pipelines within our Microsoft ecosystem.*
 
-### Project B: [Project Name]  
-*[Brief description of the problem you're solving and your approach]*
-
-### Project C: [Project Name]
-*[Brief description of the problem you're solving and your approach]*
-
-## 🔍 Technology Exploration & Research
-I'm passionate about exploring emerging technologies and staying ahead of the curve. I love diving deep into new tools, frameworks, and methodologies to understand their potential applications.
-
-### Currently Exploring:
-- **[Technology A]** - *[What interests you about it and how you're exploring it]*
-- **[Technology B]** - *[What interests you about it and how you're exploring it]*
-- **[Technology C]** - *[What interests you about it and how you're exploring it]*
-
-### Research Interests:
-- *[Areas of technology you're researching or studying]*
-- *[Specific problems or domains you're investigating]*
-
-## 🤝 Open to Collaboration
-I'm always excited to collaborate on interesting projects and solve challenging problems with other engineers and developers.
-
-### Projects I'd Love to Build:
-- **[Project Idea A]** - *[Brief description and why it interests you]*
-- **[Project Idea B]** - *[Brief description and why it interests you]*
-- **[Project Idea C]** - *[Brief description and why it interests you]*
-
-### Problems I Want to Solve:
-- *[Type of problems or challenges you're passionate about]*
-- *[Domains or industries you'd like to work in]*
-
-### Collaboration Preferences:
-- *[How you like to work with others, your strengths in team settings]*
--->
+### FUGO - Fuel Management Platform
+*Building a comprehensive fuel payments, lending, and management platform that revolutionizes how people handle fuel expenses. FUGO combines fintech innovation with social features to create a convenient and affordable solution for fuel management. Key features include QR code-based payments, fuel station locator, personalized promotions, credit score-based fuel lending, and social fuel sharing capabilities. The platform aims to simplify fuel management while making it more social and accessible for individuals and groups.*
 
 ## ✨ Featured Projects
 
@@ -93,11 +63,6 @@ I'm always excited to collaborate on interesting projects and solve challenging 
 *Automated revenue attribution within our collection platform—recovering and securing 32M+ GHS for the business unit and delivering 99%+ accuracy at scale across thousands of daily transactions.*
 
 **[📖 Read Full Project Details](projects/revenue-attribution-engine.md)**
-
-<!-- ### Data Team Structure
-*Transformed a chaotic data environment into a predictable, high-quality operation by implementing modern engineering practices and a clear Agile/Scrum framework. Improved data reliability, accelerated delivery, and fostered a culture of collaboration and continuous learning.*
-
-**[📖 Read Full Project Details](projects/data-team-structure.md)** -->
 
 ---
 
