@@ -71,38 +71,24 @@ I'm currently working on multiple projects that challenge me in different ways a
 
 **[📖 Read Full Project Details](projects/boostmate-app.md)**
 
-<!-- ---
 
-### [Project Name]
-*[Brief description of what this project solves and the impact it creates]*
 
-**[📖 Read Full Project Details](projects/project-name.md)**
-
---- -->
-
-<!-- 
 ## 🛠️ Technologies & Skills
 *[This section will showcase your technical expertise]*
 
-**Languages:** [e.g., JavaScript, Python, Java]
-**Frontend:** [e.g., React, Vue, Angular]
-**Backend:** [e.g., Node.js, Django, Spring Boot]
-**Databases:** [e.g., PostgreSQL, MongoDB, Redis]
-**DevOps:** [e.g., Docker, AWS, CI/CD]
-**Other:** [e.g., Git, Linux, APIs]
+**Languages:** Python, Dart, TypeScript, Golang, Java
+**Frontend:** React, Flutter, Angular, Vue, CMS
+**Backend:** Django, Supbase, Firebase, Node.js, Golang, S
+**Databases:** Microsoft SQL Server, Oracle, PostgreSQL, MongoDB
+**Cloud & DevOps:** Azure DevOps, Docker, Kubernetes
+**Data & Analytics:** Power BI, DBT, Power Apps, Power Automate
+**Testing:** Cypress (JavaScript/TypeScript), Jasmine (Angular), Patrol (Flutter/Dart), Jest (React), Mocha (Node.js), SQL unit test frameworks (tSQLt for SQL Server)
 
-## 📚 Learning Journey
-*[This section will tell the story of your growth and what you've learned]*
-
-## 🎯 What I'm Learning Next
-*[Show your commitment to continuous learning]*
 
 ## 📫 Get In Touch
-- **Email:** [your.email@example.com]
-- **LinkedIn:** [Your LinkedIn profile]
--->
+- **Email:** [samwillsquaye@gmail.com]
+- **LinkedIn:** [https://www.linkedin.com/in/samuel-williams-quaynor-b897411b4/]
+
 
 ---
-
-<!-- *"The best way to predict the future is to invent it." - Alan Kay* -->
 
