@@ -10,6 +10,9 @@
   <img src="../screenshots/boostmate/boostmate-home.png" alt="Boostmate App" width="200"/>
   <img src="../screenshots/boostmate/boostmate-dashboard.png" alt="Boostmate App" width="200"/>
   <img src="../screenshots/boostmate/boostmate-leads.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-campaigns.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-analytics.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-settings.png" alt="Boostmate App" width="200"/>
 </div>
 
 **[📖 Read Full Project Details](boostmate-app.md)**
@@ -26,6 +29,9 @@
   <img src="../screenshots/fugo/fugo-home.png" alt="FUGO App" width="200"/>
   <img src="../screenshots/fugo/fugo-stations.png" alt="FUGO App" width="200"/>
   <img src="../screenshots/fugo/fugo-payment.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-qr.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-wallet.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-lending.png" alt="FUGO App" width="200"/>
 </div>
 
 **[📖 Read Full Project Details](fugo-app.md)**
@@ -39,9 +45,12 @@
 ### 📸 Preview Screenshots
 
 <div align="center">
+  <img src="../screenshots/heny/heny-home.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-experiences.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-restaurants.png" alt="HENY App" width="200"/>
   <img src="../screenshots/heny/heny-booking.png" alt="HENY App" width="200"/>
-  <img src="../screenshots/heny/heny-details.png" alt="HENY App" width="200"/>
   <img src="../screenshots/heny/heny-virtual.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-wallet.png" alt="HENY App" width="200"/>
 </div>
 
 **[📖 Read Full Project Details](heny-app.md)**
@@ -58,6 +67,9 @@
   <img src="../screenshots/solarhub/solarhub-home.png" alt="SolarHub App" width="200"/>
   <img src="../screenshots/solarhub/solarhub-dashboard.png" alt="SolarHub App" width="200"/>
   <img src="../screenshots/solarhub/solarhub-monitoring.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-analytics.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-energy.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-alerts.png" alt="SolarHub App" width="200"/>
 </div>
 
 **[📖 Read Full Project Details](solarhub-app.md)**

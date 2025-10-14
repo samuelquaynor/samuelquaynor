@@ -13,6 +13,17 @@ HENY is a comprehensive mobile platform for discovering and booking amazing expe
 - **Multi-Currency Support**: Support for GHS, KES, NGN, ZAR, USD
 - **Blog & Inspiration**: Get inspired with curated content and gift ideas
 
+### 📸 Preview Screenshots
+
+<div align="center">
+  <img src="../screenshots/heny/heny-home.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-experiences.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-restaurants.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-booking.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-virtual.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-wallet.png" alt="HENY App" width="200"/>
+</div>
+
 ## 🛠️ Technologies Used
 - **Frontend**: Flutter, Dart
 - **State Management**: Bloc Pattern

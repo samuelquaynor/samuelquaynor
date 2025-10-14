@@ -64,6 +64,17 @@ SolarHub is a mobile learning platform focused on solar energy education and adv
 - **Onboarding Flow**: New user introduction
 - **Session Management**: Secure session handling
 
+### 📸 Preview Screenshots
+
+<div align="center">
+  <img src="../screenshots/solarhub/solarhub-home.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-dashboard.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-monitoring.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-analytics.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-energy.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-alerts.png" alt="SolarHub App" width="200"/>
+</div>
+
 ## 🛠️ Technologies Used
 - **Framework**: Flutter, Dart
 - **Backend**: Firebase (Firestore, Auth, Storage)

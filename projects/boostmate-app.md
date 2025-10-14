@@ -20,6 +20,17 @@ When I joined, the existing platform was struggling with performance issues, cra
 - **Automated CI/CD**: Codemagic pipeline with app store deployment
 - **Firebase Integration**: Backend services, hosting, and test labs
 
+### 📸 Preview Screenshots
+
+<div align="center">
+  <img src="../screenshots/boostmate/boostmate-home.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-dashboard.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-leads.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-campaigns.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-analytics.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-settings.png" alt="Boostmate App" width="200"/>
+</div>
+
 ## 🛠️ Technologies Used
 - **Frontend**: Flutter, Dart
 - **State Management**: Riverpod

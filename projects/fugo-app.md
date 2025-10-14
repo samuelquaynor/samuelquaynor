@@ -12,6 +12,17 @@ FUGO is a comprehensive fuel payments, lending, and management platform that rev
 - **Expense Tracking**: Monitor and manage fuel expenses with detailed analytics
 - **Multi-Payment Options**: Support for various payment methods
 
+### 📸 Preview Screenshots
+
+<div align="center">
+  <img src="../screenshots/fugo/fugo-home.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-stations.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-payment.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-qr.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-wallet.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-lending.png" alt="FUGO App" width="200"/>
+</div>
+
 ## 🛠️ Technologies Used
 - **Frontend**: Flutter, Dart
 - **State Management**: Provider/Riverpod
