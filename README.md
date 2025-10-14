@@ -71,7 +71,19 @@ I'm currently working on multiple projects that challenge me in different ways a
 
 **[📖 Read Full Project Details](projects/boostmate-app.md)**
 
+---
 
+## 🔧 Backend Solutions
+*Explore backend systems, APIs, databases, and data engineering projects*
+
+**[View All Backend Solutions →](projects/backend-solutions.md)**
+
+## 📱 Mobile Solutions
+*Cross-platform mobile applications and mobile-first experiences*
+
+**[View All Mobile Solutions →](projects/mobile-solutions.md)**
+
+---
 
 ## 🛠️ Technologies & Skills
 *[This section will showcase your technical expertise]*
@@ -82,7 +94,7 @@ I'm currently working on multiple projects that challenge me in different ways a
 **Databases:** Microsoft SQL Server, Oracle, PostgreSQL, MongoDB
 **Cloud & DevOps:** Azure DevOps, Docker, Kubernetes
 **Data & Analytics:** Power BI, DBT, Power Apps, Power Automate
-**Testing:** Cypress (JavaScript/TypeScript), Jasmine (Angular), Patrol (Flutter/Dart), Jest (React), Mocha (Node.js), SQL unit test frameworks (tSQLt for SQL Server)
+**Testing:** Cypress (JavaScript/TypeScript), Jasmine (Angular), Patrol (Flutter/Dart), Jest (React), Mocha (Node.js), SQL unit test frameworks (tSQLt for SQL Server) 
 
 
 ## 📫 Get In Touch
