@@ -7,12 +7,10 @@
 ### 📸 Preview Screenshots
 
 <div align="center">
-  <img src="screenshots/boostmate-home.png" alt="Boostmate Home Screen" width="200"/>
-  <img src="screenshots/boostmate-dashboard.png" alt="Boostmate Dashboard" width="200"/>
-  <img src="screenshots/boostmate-leads.png" alt="Boostmate Leads Management" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-home.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-dashboard.png" alt="Boostmate App" width="200"/>
+  <img src="../screenshots/boostmate/boostmate-leads.png" alt="Boostmate App" width="200"/>
 </div>
-
-*Screenshots showcasing the modern, responsive UI across different features*
 
 **[📖 Read Full Project Details](boostmate-app.md)**
 
@@ -25,12 +23,10 @@
 ### 📸 Preview Screenshots
 
 <div align="center">
-  <img src="screenshots/fugo-home.png" alt="FUGO Home Screen" width="200"/>
-  <img src="screenshots/fugo-payment.png" alt="FUGO QR Payment" width="200"/>
-  <img src="screenshots/fugo-stations.png" alt="FUGO Fuel Stations" width="200"/>
+  <img src="../screenshots/fugo/fugo-home.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-stations.png" alt="FUGO App" width="200"/>
+  <img src="../screenshots/fugo/fugo-payment.png" alt="FUGO App" width="200"/>
 </div>
-
-*Screenshots showcasing the fuel management and payment features*
 
 **[📖 Read Full Project Details](fugo-app.md)**
 
@@ -38,37 +34,17 @@
 
 ## HENY
 
-**A modern mobile application designed to streamline workflow management and enhance productivity. Built with cutting-edge mobile technologies to deliver a seamless user experience across iOS and Android platforms.**
+**A comprehensive platform for discovering and booking amazing experiences, restaurants, and places. HENY connects users with curated activities, virtual experiences, and local businesses, making it easy to find fun things to do anytime, anywhere.**
 
 ### 📸 Preview Screenshots
 
 <div align="center">
-  <img src="screenshots/heny-dashboard.png" alt="HENY Dashboard" width="200"/>
-  <img src="screenshots/heny-tasks.png" alt="HENY Task Management" width="200"/>
-  <img src="screenshots/heny-analytics.png" alt="HENY Analytics" width="200"/>
+  <img src="../screenshots/heny/heny-booking.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-details.png" alt="HENY App" width="200"/>
+  <img src="../screenshots/heny/heny-virtual.png" alt="HENY App" width="200"/>
 </div>
-
-*Screenshots showcasing the intuitive interface and powerful features*
 
 **[📖 Read Full Project Details](heny-app.md)**
-
----
-
-## ZORMOR
-
-**An innovative mobile solution that transforms how users interact with digital services. Featuring a beautiful, user-friendly interface and robust functionality designed for modern mobile experiences.**
-
-### 📸 Preview Screenshots
-
-<div align="center">
-  <img src="screenshots/zormor-home.png" alt="ZORMOR Home Screen" width="200"/>
-  <img src="screenshots/zormor-features.png" alt="ZORMOR Features" width="200"/>
-  <img src="screenshots/zormor-profile.png" alt="ZORMOR Profile" width="200"/>
-</div>
-
-*Screenshots highlighting the app's modern design and functionality*
-
-**[📖 Read Full Project Details](zormor-app.md)**
 
 ---
 
@@ -79,32 +55,12 @@
 ### 📸 Preview Screenshots
 
 <div align="center">
-  <img src="screenshots/solarhub-dashboard.png" alt="SolarHub Dashboard" width="200"/>
-  <img src="screenshots/solarhub-energy.png" alt="SolarHub Energy Tracking" width="200"/>
-  <img src="screenshots/solarhub-reports.png" alt="SolarHub Reports" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-home.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-dashboard.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-energy.png" alt="SolarHub App" width="200"/>
 </div>
-
-*Screenshots demonstrating energy monitoring and analytics features*
 
 **[📖 Read Full Project Details](solarhub-app.md)**
-
----
-
-## Aikconnect
-
-**A powerful networking and connectivity platform that brings people together. Designed to facilitate seamless communication and collaboration with an intuitive mobile-first approach.**
-
-### 📸 Preview Screenshots
-
-<div align="center">
-  <img src="screenshots/aikconnect-network.png" alt="Aikconnect Network" width="200"/>
-  <img src="screenshots/aikconnect-connect.png" alt="Aikconnect Connect" width="200"/>
-  <img src="screenshots/aikconnect-chat.png" alt="Aikconnect Chat" width="200"/>
-</div>
-
-*Screenshots showing networking and communication features*
-
-**[📖 Read Full Project Details](aikconnect-app.md)**
 
 ---
 

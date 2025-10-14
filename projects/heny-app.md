@@ -1,17 +1,17 @@
-# HENY - Workflow Management Platform
+# HENY - Experience Discovery & Booking Platform
 
 ## 🎯 Overview
-HENY is a modern mobile application designed to streamline workflow management and enhance productivity. Built with cutting-edge mobile technologies, HENY delivers a seamless user experience across iOS and Android platforms, helping individuals and teams organize their work more effectively.
+HENY is a comprehensive mobile platform for discovering and booking amazing experiences, restaurants, and places. Built with cutting-edge mobile technologies, HENY connects users with curated activities, virtual experiences, and local businesses, making it easy to find fun things to do anytime, anywhere.
 
 ## 🚀 Key Features
-- **Task Management**: Create, assign, and track tasks with ease
-- **Project Organization**: Organize work into projects with customizable workflows
-- **Team Collaboration**: Real-time collaboration and communication tools
-- **Analytics Dashboard**: Track productivity and performance metrics
-- **Notifications**: Smart notifications to keep users informed
-- **File Management**: Attach and organize files within tasks
-- **Calendar Integration**: Sync with popular calendar applications
-- **Time Tracking**: Monitor time spent on tasks and projects
+- **Experience Discovery**: Find curated activities and experiences in your city
+- **Virtual Experiences**: Access amazing activities anywhere, virtually
+- **Restaurant & Places**: Explore curated lists of restaurants, cafes, pubs, and bars
+- **Curated by Locals**: Locals who love where they come from curate experiences
+- **Flexible Cancellation**: Cancel most activities up to 24 hours before at no charge
+- **Heny Wallet**: Integrated wallet for seamless payments
+- **Multi-Currency Support**: Support for GHS, KES, NGN, ZAR, USD
+- **Blog & Inspiration**: Get inspired with curated content and gift ideas
 
 ## 🛠️ Technologies Used
 - **Frontend**: Flutter, Dart
@@ -26,79 +26,82 @@ HENY is a modern mobile application designed to streamline workflow management a
 ## 📖 The Story
 
 ### The Challenge
-Modern work environments demand efficient task and project management tools. Existing solutions are often complex, expensive, or lack the mobile-first approach needed for today's on-the-go workforce. Teams need a simple yet powerful tool that works seamlessly across devices.
+Finding quality experiences and activities in your city can be overwhelming. With countless options scattered across different platforms, users struggle to discover memorable experiences that are vetted for quality. There's a need for a centralized platform that curates the best experiences and makes them easily discoverable.
 
 ### The Solution
-HENY was built to provide a comprehensive yet intuitive workflow management solution. The platform focuses on:
-- User-friendly interface that requires minimal training
-- Powerful features that scale from individual use to large teams
-- Mobile-first design for productivity on the go
-- Flexible workflows that adapt to different work styles
-- Integration capabilities with popular productivity tools
+HENY was built to solve this problem by creating a comprehensive experience discovery and booking platform. The platform focuses on:
+- Curated experiences vetted for quality
+- Local curators who know their cities best
+- Easy booking with flexible cancellation policies
+- Virtual experiences for remote participation
+- Integration with restaurants, cafes, and local businesses
+- Multi-currency support for global accessibility
 
 ### Why These Choices Worked
 - **Flutter**: Consistent experience across platforms with native performance
-- **Bloc Pattern**: Predictable state management for complex workflows
-- **PostgreSQL**: Reliable data storage with strong consistency
-- **WebSocket**: Real-time updates for collaborative features
+- **Bloc Pattern**: Predictable state management for complex booking flows
+- **PostgreSQL**: Reliable data storage for experiences and bookings
+- **WebSocket**: Real-time updates for booking availability
 - **RESTful API**: Clean, maintainable backend architecture
 
 ## 🎓 Key Learnings
 - **User Experience**: Simple UI/UX is more valuable than feature complexity
-- **Performance**: Mobile apps need to be fast and responsive
-- **Real-time Sync**: Keeping data synchronized across devices is challenging
+- **Performance**: Mobile apps need to be fast and responsive for booking flows
+- **Real-time Availability**: Keeping booking availability synchronized is challenging
 - **Notifications**: Smart notification management is crucial for user engagement
-- **Scalability**: Architecture must support growth from individual to enterprise use
+- **Curator Quality**: Maintaining high-quality curated experiences requires careful vetting
+- **Multi-Currency**: Handling multiple currencies requires careful financial calculations
 
 ## 🔧 Technical Challenges & Solutions
 
-### Challenge 1: Real-Time Collaboration
-*How do you enable seamless real-time collaboration without conflicts?*
+### Challenge 1: Real-Time Booking Availability
+*How do you handle real-time booking availability without double-bookings?*
 
-**Solution:** Implemented operational transformation (OT) algorithm:
-- Conflict-free replicated data types (CRDTs) for concurrent edits
-- WebSocket connections for instant updates
+**Solution:** Implemented booking lock mechanism:
+- Pessimistic locking for high-demand experiences
+- WebSocket connections for instant availability updates
 - Optimistic UI updates for perceived performance
-- Conflict resolution strategies for edge cases
+- Automatic lock release after timeout
+- Conflict resolution for concurrent bookings
 
-### Challenge 2: Offline Functionality
-*How do you maintain productivity when users are offline?*
+### Challenge 2: Multi-Currency Support
+*How do you handle multiple currencies accurately and efficiently?*
 
-**Solution:** Built offline-first architecture:
-- Local database caching with SQLite
-- Queue system for pending operations
-- Automatic sync when connection is restored
-- Conflict resolution for offline changes
-- Clear indicators for sync status
+**Solution:** Built comprehensive currency system:
+- Real-time exchange rate integration
+- Currency conversion at booking time
+- User preference for default currency
+- Accurate rounding and fee calculations
+- Clear display of prices in user's preferred currency
 
-### Challenge 3: Notification Management
-*How do you keep users informed without overwhelming them?*
+### Challenge 3: Experience Discovery & Search
+*How do you help users discover relevant experiences quickly?*
 
-**Solution:** Implemented smart notification system:
-- User-configurable notification preferences
-- Intelligent batching of notifications
-- Priority-based notification ranking
-- Quiet hours and do-not-disturb modes
-- Notification grouping and categorization
+**Solution:** Implemented intelligent search and recommendation:
+- Elasticsearch for fast, relevant search results
+- Machine learning for personalized recommendations
+- Location-based filtering and sorting
+- Category-based browsing with filters
+- Trending experiences based on user behavior
 
 ## 📊 Results & Impact
-- **Productivity Gains**: Users report 30%+ increase in productivity
-- **User Adoption**: Strong adoption across various industries
-- **Team Collaboration**: Improved team coordination and communication
-- **User Satisfaction**: High ratings for ease of use and reliability
-- **Scalability**: Successfully handles teams from 5 to 500+ members
+- **User Growth**: Strong adoption across multiple cities and countries
+- **Booking Volume**: Significant increase in experience bookings
+- **Curator Network**: Growing community of local curators
+- **User Satisfaction**: High ratings for ease of use and experience quality
+- **Multi-Currency**: Successfully serving users across Africa and beyond
 
 ## 🔗 Links
-- **Live Demo**: [Web App]
+- **Live Website**: [https://heny.app/](https://heny.app/)
 - **Repository**: [Internal repository]
 - **Documentation**: [Internal docs]
 
 ## 🎯 Future Improvements
-- **AI-Powered Insights**: Smart recommendations for task prioritization
-- **Advanced Analytics**: Deeper insights into team productivity patterns
-- **Integration Marketplace**: Connect with more third-party tools
-- **Automation Engine**: Custom automation rules for recurring workflows
-- **Advanced Reporting**: Enhanced reporting and visualization capabilities
+- **AI-Powered Recommendations**: Enhanced personalized experience suggestions
+- **Advanced Analytics**: Deeper insights into user preferences and trends
+- **Social Features**: Share experiences and reviews with friends
+- **Loyalty Program**: Rewards and benefits for frequent users
+- **Enhanced Virtual Experiences**: More immersive virtual experience offerings
 
 ---
 
