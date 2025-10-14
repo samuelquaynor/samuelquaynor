@@ -1,93 +1,146 @@
-# SolarHub - Solar Energy Management Platform
+# SolarHub - Solar Energy Education Platform
 
 ## 🎯 Overview
-SolarHub is a comprehensive mobile platform for solar energy management and monitoring. The platform empowers users to track, analyze, and optimize their solar energy consumption with real-time data and insights, helping them make informed decisions about their energy usage and savings.
+SolarHub is a mobile learning platform focused on solar energy education and advocacy. It's designed to educate users about solar energy through courses, interactive trivia, real-world case studies, and practical tools. The platform combines education with practical tools to help users understand and implement solar energy solutions.
 
 ## 🚀 Key Features
-- **Real-Time Monitoring**: Track solar energy production and consumption in real-time
-- **Energy Analytics**: Detailed analytics and insights into energy patterns
-- **Cost Tracking**: Monitor energy costs and savings from solar installation
-- **Equipment Management**: Monitor and manage solar equipment health
-- **Weather Integration**: Weather-based energy production forecasts
-- **Alerts & Notifications**: Get notified about system issues and opportunities
-- **Historical Reports**: View historical data and trends over time
-- **Remote Control**: Control and optimize solar system settings remotely
+
+### 📚 Courses & Learning
+- **Course Catalog**: Browse and enroll in solar energy courses
+- **Course Types**: Live courses with scheduled dates and on-demand courses
+- **Video Lessons**: YouTube integration for course content
+- **Course Structure**: Organized sections and modules
+- **Reviews & Ratings**: User feedback on courses
+- **Certificates**: Earn certificates upon course completion
+- **Progress Tracking**: Monitor course duration and completion
+- **Payment Integration**: Course enrollment with payment support
+
+### 🎮 Solar Trivia Games
+- **Interactive Quizzes**: Multiple question types (text and image-based)
+- **Timer-Based Questions**: Challenge yourself with time limits
+- **Score Tracking**: Track your performance
+- **Progress Monitoring**: See your improvement over time
+- **Performance Review**: Detailed results and feedback
+- **Gamification**: Engaging elements to keep learning fun
+
+### 🔧 Energy Audit Tool
+- **Step-by-Step Wizard**: Guided energy audit process
+- **Appliance Selection**: Choose and analyze appliances
+- **Consumption Calculations**: Calculate energy usage
+- **Energy Reports**: Detailed reports and recommendations
+- **Usage Insights**: Understand your energy consumption patterns
+
+### 💼 Solar Makeovers
+- **Real-World Case Studies**: Actual solar installation projects
+- **Before/After Transformations**: Visual project showcases
+- **Video Content**: Video demonstrations of solar projects
+- **Company Profiles**: Learn about solar companies
+- **Implementation Education**: Understand solar implementations
+
+### 💬 Instructor Chat
+- **Direct Messaging**: Chat directly with course instructors
+- **Real-Time Communication**: Instant messaging functionality
+- **Message History**: Access past conversations
+- **Date-Grouped Conversations**: Organized chat history
+
+### 💰 Wallet System
+- **In-App Wallet**: Manage course payments
+- **Flutterwave Integration**: Secure payment gateway
+- **Transaction History**: Track all payments
+- **Balance Management**: Monitor wallet balance
+- **Multiple Payment Methods**: Card, bank transfer, USSD, and more
+
+### 👤 User Profile & Settings
+- **Firebase Authentication**: Secure user accounts
+- **Google Sign-In**: Quick authentication option
+- **Profile Management**: Customize your profile
+- **Display Name & Photo**: Personalize your account
+- **Enrollment Tracking**: Monitor your course enrollments
+- **Progress Tracking**: Track your learning journey
+
+### 🔐 Authentication
+- **Email/Password**: Traditional authentication
+- **Google Sign-In**: Social authentication
+- **Onboarding Flow**: New user introduction
+- **Session Management**: Secure session handling
 
 ## 🛠️ Technologies Used
-- **Frontend**: Flutter, Dart
+- **Framework**: Flutter, Dart
+- **Backend**: Firebase (Firestore, Auth, Storage)
 - **State Management**: Riverpod
-- **Backend**: Node.js, Express
-- **Database**: InfluxDB (time-series), PostgreSQL
-- **Real-time**: MQTT, WebSocket
-- **Charts**: Flutter Charts, Chart.js
-- **Authentication**: JWT, OAuth2
-- **Analytics**: Google Analytics, Custom Analytics
+- **Payment**: Flutterwave
+- **Video**: YouTube Player, Video Player
+- **Local Storage**: Hive
+- **Architecture**: Clean architecture with providers and repositories
+- **Authentication**: Firebase Auth, Google Sign-In
 
 ## 📖 The Story
 
 ### The Challenge
-Solar energy system owners often lack visibility into their system's performance. Without proper monitoring and analytics, users can't optimize their energy usage, detect issues early, or maximize their return on investment. The market needed an intuitive, comprehensive monitoring solution.
+There's a growing need for solar energy education and advocacy, but existing platforms lack comprehensive learning tools and practical resources. Users need accessible, engaging ways to learn about solar energy, from basic concepts to real-world implementations. The market needed a platform that combines education with practical tools.
 
 ### The Solution
-SolarHub was designed to provide complete visibility and control over solar energy systems. The platform offers:
-- Real-time monitoring of energy production and consumption
-- Advanced analytics to identify optimization opportunities
-- Predictive maintenance alerts to prevent equipment failures
-- Cost tracking to demonstrate ROI
-- Weather-based forecasting for better planning
+SolarHub was designed to be a comprehensive learning platform for solar energy education. The platform offers:
+- Interactive courses with video lessons and certificates
+- Gamified learning through trivia and quizzes
+- Practical tools like energy audit calculators
+- Real-world case studies and solar makeovers
+- Direct instructor communication
+- Integrated payment and wallet system
 
 ### Why These Choices Worked
-- **Flutter**: Consistent cross-platform experience with smooth animations
-- **InfluxDB**: Optimized for time-series data from IoT sensors
-- **MQTT**: Efficient protocol for IoT device communication
-- **Riverpod**: Type-safe state management for complex data flows
-- **Real-time Updates**: Instant notifications for critical events
+- **Flutter**: Consistent cross-platform experience with native performance
+- **Firebase**: Scalable backend with real-time capabilities
+- **Riverpod**: Type-safe state management for complex app state
+- **Flutterwave**: Reliable payment processing with multiple options
+- **Clean Architecture**: Maintainable and testable codebase
 
 ## 🎓 Key Learnings
-- **IoT Integration**: Connecting and managing multiple IoT devices requires robust protocols
-- **Time-Series Data**: Efficient storage and querying of time-series data is crucial
-- **Data Visualization**: Complex energy data needs clear, intuitive visualizations
-- **Predictive Analytics**: Machine learning can help predict issues before they occur
-- **User Education**: Helping users understand energy data requires good UX
+- **Educational Content**: Creating engaging educational content requires careful planning
+- **Video Integration**: YouTube player integration needs careful error handling
+- **Payment Processing**: Flutterwave integration requires proper error handling and user feedback
+- **Real-time Chat**: Firebase real-time database is excellent for chat functionality
+- **Clean Architecture**: Proper separation of concerns makes the app maintainable and testable
+- **User Experience**: Gamification and interactive elements increase engagement
 
 ## 🔧 Technical Challenges & Solutions
 
-### Challenge 1: Real-Time Data Processing
-*How do you process and display real-time data from multiple IoT devices?*
+### Challenge 1: Video Playback
+*How do you integrate YouTube videos and ensure smooth playback?*
 
-**Solution:** Implemented efficient data pipeline:
-- MQTT broker for device communication
-- InfluxDB for time-series data storage
-- WebSocket for real-time updates to mobile app
-- Data aggregation and downsampling for historical queries
-- Caching strategy to reduce database load
+**Solution:** Implemented robust video player system:
+- YouTube Player plugin for YouTube content
+- Video Player for local video files
+- Proper error handling and loading states
+- Offline video caching with Hive
+- Playback state management with Riverpod
 
-### Challenge 2: Data Visualization
-*How do you present complex energy data in an understandable way?*
+### Challenge 2: Payment Integration
+*How do you securely process payments for course enrollments?*
 
-**Solution:** Created intuitive visualization system:
-- Interactive charts with drill-down capabilities
-- Multiple chart types (line, bar, pie, heatmap)
-- Customizable time ranges and granularity
-- Comparative views (day vs day, month vs month)
-- Export capabilities for detailed analysis
+**Solution:** Integrated Flutterwave payment gateway:
+- Flutterwave SDK for payment processing
+- Multiple payment methods (card, bank, USSD, etc.)
+- Secure transaction handling
+- Wallet system for in-app payments
+- Transaction history and receipts
 
-### Challenge 3: Predictive Maintenance
-*How do you predict equipment failures before they happen?*
+### Challenge 3: Real-Time Chat
+*How do you enable real-time messaging with instructors?*
 
-**Solution:** Implemented ML-based predictive system:
-- Historical data analysis for pattern recognition
-- Anomaly detection algorithms
-- Equipment health scoring
-- Automated alert system for potential issues
-- Maintenance recommendations based on data
+**Solution:** Implemented Firebase-based chat system:
+- Firestore for message storage
+- Real-time listeners for instant updates
+- Date-grouped message organization
+- Message state management (sent, delivered, read)
+- Efficient pagination for chat history
 
 ## 📊 Results & Impact
-- **Energy Optimization**: Users report 15-20% improvement in energy efficiency
-- **Cost Savings**: Average savings of $500-1000 annually per household
-- **Issue Detection**: 90% of issues detected before major failures
-- **User Satisfaction**: High ratings for data accuracy and ease of use
-- **System Reliability**: Improved uptime through proactive maintenance
+- **User Engagement**: High course completion rates and active learning
+- **Educational Impact**: Users gain practical solar energy knowledge
+- **Platform Growth**: Growing user base and course catalog
+- **User Satisfaction**: Positive feedback on course quality and platform usability
+- **Knowledge Transfer**: Successfully educating users about solar energy
 
 ## 🔗 Links
 - **Live Demo**: [Web App]
@@ -95,11 +148,11 @@ SolarHub was designed to provide complete visibility and control over solar ener
 - **Documentation**: [Internal docs]
 
 ## 🎯 Future Improvements
-- **AI-Powered Optimization**: Machine learning for automatic system optimization
-- **Community Features**: Share and compare energy data with other users
-- **Carbon Footprint Tracking**: Monitor environmental impact
-- **Smart Home Integration**: Connect with other smart home devices
-- **Advanced Forecasting**: Better predictions using more data sources
+- **AI-Powered Recommendations**: Personalized course recommendations
+- **Community Features**: User forums and discussion boards
+- **Advanced Analytics**: Detailed learning analytics and progress tracking
+- **Offline Mode**: Download courses for offline viewing
+- **Multi-Language Support**: Expand to more languages and regions
 
 ---
 

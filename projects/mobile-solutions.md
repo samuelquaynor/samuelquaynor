@@ -50,14 +50,14 @@
 
 ## SolarHub
 
-**A comprehensive mobile platform for solar energy management and monitoring. Empowering users to track, analyze, and optimize their solar energy consumption with real-time data and insights.**
+**A mobile learning platform focused on solar energy education and advocacy. Features include interactive courses with video lessons, solar trivia games, energy audit tools, real-world solar makeover case studies, instructor chat, and an in-app wallet system.**
 
 ### 📸 Preview Screenshots
 
 <div align="center">
   <img src="../screenshots/solarhub/solarhub-home.png" alt="SolarHub App" width="200"/>
   <img src="../screenshots/solarhub/solarhub-dashboard.png" alt="SolarHub App" width="200"/>
-  <img src="../screenshots/solarhub/solarhub-energy.png" alt="SolarHub App" width="200"/>
+  <img src="../screenshots/solarhub/solarhub-monitoring.png" alt="SolarHub App" width="200"/>
 </div>
 
 **[📖 Read Full Project Details](solarhub-app.md)**
