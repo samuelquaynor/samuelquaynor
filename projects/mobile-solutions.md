@@ -15,6 +15,8 @@
   <img src="../screenshots/boostmate/boostmate-settings.png" alt="Boostmate App" width="200"/>
 </div>
 
+**📱 Get the App**: [https://www.theboostmate.com/boosters](https://www.theboostmate.com/boosters)
+
 **[📖 Read Full Project Details](boostmate-app.md)**
 
 ---
