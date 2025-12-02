@@ -72,6 +72,10 @@ I'm currently working on multiple projects that challenge me in different ways a
 **[📖 Read Full Project Details](projects/boostmate-app.md)**
 
 ---
+## 🎨 Frontend Solutions
+*Explore web applications, user interfaces, and frontend experiences*
+
+**[View All Frontend Solutions →](projects/frontend-solutions.md)**
 
 ## 🔧 Backend Solutions
 *Explore backend systems, APIs, databases, and data engineering projects*
@@ -86,8 +90,6 @@ I'm currently working on multiple projects that challenge me in different ways a
 ---
 
 ## 🛠️ Technologies & Skills
-*[This section will showcase your technical expertise]*
-
 **Languages:** Python, Dart, TypeScript, Golang, Java
 **Frontend:** React, Flutter, Angular, Vue, CMS
 **Backend:** Django, Supbase, Firebase, Node.js, Golang, S

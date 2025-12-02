@@ -145,8 +145,6 @@ The transformation wasn't just technical - it directly supported Boostmate's mis
 
 ## 🔗 Links
 - **Live Demo**: [Web App](https://boostmate.web.app)
-- **Azure DevOps Repository**: [Internal repository]
-- **Documentation**: [Internal architecture docs]
 
 ## 🎯 Future Improvements
 - **Performance Optimization**: Implement lazy loading and caching strategies
